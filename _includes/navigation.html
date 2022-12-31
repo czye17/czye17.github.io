@@ -1,0 +1,17 @@
+<header>
+    <div class="title-wide">
+        <h1><a href="/">christopher ye</a></h1>
+    </div>
+    <div class="nav-wide">
+        <nav class="nav-wide">
+            <ul>
+                {% for item in site.data.navigation %}
+                <li>
+                    <a href="{{ item.link }}" {% if page.url==item.link %} class="nav-current nav-wide" {% else %}
+                        class="nav-base nav-wide" {% endif %}>{{ item.name }}</a>
+                </li>
+                {% endfor %}
+            </ul>
+        </nav>
+    </div>
+</header>

@@ -1,0 +1,48 @@
+- course: MAT 203 - Advanced Vector Calculus
+  year: 2018
+  term: fall
+  role: Tutor
+  school: Princeton
+  idx: 2018.2
+- course: MAT 204 - Advanced Linear Algebra with Applications
+  year: 2019
+  term: spring
+  role: Tutor
+  school: Princeton
+  idx: 2019.1
+- course: COS 217 - Introduction to Programming Systems
+  year: 2019
+  term: spring
+  role: Grader
+  school: Princeton
+  idx: 2019.1
+- course: MAT 215 - Honors Analysis
+  year: 2019
+  term: fall
+  role: TA
+  school: Princeton
+  idx: 2019.2
+- course: MAT 215 - Honors Analysis
+  year: 2020
+  term: spring
+  role: TA
+  school: Princeton
+  idx: 2020.1
+- course: MAT 215 - Honors Analysis
+  year: 2020
+  term: fall
+  role: Head TA
+  school: Princeton
+  idx: 2020.1
+- course: COS 318 - Operating Systems
+  year: 2020
+  term: fall
+  role: TA
+  school: Princeton
+  idx: 2020.2
+- course: MAT 215 - Honors Analysis
+  year: 2021
+  term: spring
+  role: Head TA
+  school: Princeton
+  idx: 2021.1
