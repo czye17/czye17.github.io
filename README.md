@@ -15,6 +15,7 @@ One small issue: When I installed Jekyll (2022/12/30) the documentation page sai
 Once you have cloned the repository, run the following commands.
 
 `bundle update`
+
 `bundle exec jekyll serve`
 
 # Acknowledgements
