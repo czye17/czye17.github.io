@@ -4,10 +4,13 @@ title: cooking
 ---
 <h1>some of the food I've made</h1>
 
-<ul>
-    {% for post in site.posts %}
+{% assign recipes = site.posts | where: "category", "cooking" %}
+
+<ul class="cooking-list">
+    {% for post in recipes %}
     <li>
-        <h3><a href="{{ post.url }}">{{ post.title }}</a></h3>
+        <h3>{{ post.date | date_to_string }} - {{ post.title }}</h3>
+        <img src="imgs/cooking/{{ post.image_src }}" width="50%">
         {{ post.excerpt }}
     </li>
     {% endfor %}
