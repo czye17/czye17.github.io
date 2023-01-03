@@ -1,4 +1,4 @@
-To see my personal website, please visit <a href="https://chrisye.github.io/">chrisye.github.io</a>
+To see my personal website, please visit <a href="https://czye17.github.io/">czye17.github.io</a>
 
 Built using Jekyll and Github Pages.
 
