@@ -1,7 +1,7 @@
 ---
 layout: post
 category: cooking
-image_src: pao_queijo.png
+image_src: pao_queijo.jpg
 ---
 
 Went to Brazil in June with some friends and these were one of my favorite things I ate there! 

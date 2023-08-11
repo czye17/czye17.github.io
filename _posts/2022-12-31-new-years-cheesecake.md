@@ -1,7 +1,7 @@
 ---
 layout: post
 category: cooking
-image_src: cheesecake.png
+image_src: cheesecake.jpg
 ---
 
 Made a little New Years Eve dinner to celebrate the end of 2022. 

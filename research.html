@@ -7,3 +7,14 @@ title: research
 <p>working on cooking something up here... 🥘</p>
 
 <p>in the meantime, please feel free to check out the <a href="/cooking.html">food</a> I have been making 😊</p>
+
+<h1>talks</h1>
+
+{% assign sorted_talks = site.data.talks | sort: "date" | reverse %}
+<ul>
+    {% for item in sorted_talks %}
+    <li><b>{{ item.topic }}</b> - {{ item.setting }} ({{ item.date | date_to_string }})</li>
+    {% endfor %}
+</ul>
+
+    

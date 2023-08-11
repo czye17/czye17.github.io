@@ -1,7 +1,7 @@
 ---
 layout: post
 category: cooking
-image_src: deep_dish.png
+image_src: deep_dish.jpg
 ---
 
 While making pie last week, I decided making a deep dish pizza was the natural next step. 

@@ -1,7 +1,7 @@
 ---
 layout: post
 category: cooking
-image_src: butternut_squash.png
+image_src: butternut_squash.jpg
 ---
 
 Made this a couple weeks before at my friend's place and really loved how warm and soothing the soup was. 
