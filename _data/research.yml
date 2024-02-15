@@ -1,8 +1,5 @@
-- title: Faster Approximate All Pairs Shortest Paths
-  conference: SODA
-  year: 2024
-  arxiv: https://arxiv.org/abs/2309.13225
-  proceedings: https://epubs.siam.org/doi/abs/10.1137/1.9781611977912.170
+- title: The I/O Complexity of Attention, or How Optimal is Flash Attention?
+  arxiv: https://arxiv.org/abs/2402.07443
   authors: 
     - name: Barna Saha
       site: https://barnasaha.net
@@ -21,8 +18,11 @@
     - name: Martin Seybold
       site: https://orcid.org/0000-0001-6901-3035
       last: true
-- title: The I/O Complexity of Attention, or How Optimal is Flash Attention?
-  arxiv: https://arxiv.org/abs/2402.07443
+- title: Faster Approximate All Pairs Shortest Paths
+  conference: SODA
+  year: 2024
+  arxiv: https://arxiv.org/abs/2309.13225
+  proceedings: https://epubs.siam.org/doi/abs/10.1137/1.9781611977912.170
   authors: 
     - name: Barna Saha
       site: https://barnasaha.net
