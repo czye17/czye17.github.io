@@ -11,7 +11,7 @@ title: christopher ye
         </div>
         <div class="about-desc">
             <h1>about me</h1>
-            <p>Hi 🌊! I'm a first-year PhD student in UC San Diego's CS Theory Group where I am very lucky to work with <a
+            <p>Hi 🌊! I'm a second-year PhD student in UC San Diego's CS Theory Group where I am very lucky to work with <a
                     href="https://barnasaha.net">Barna Saha</a> and <a href="https://cseweb.ucsd.edu/~russell/">Russell
                     Impagliazzo</a>. I am interested in algorithm design, fine-grained complexity, as well as
                 computational complexity and learning theory. 
@@ -34,25 +34,15 @@ title: christopher ye
 </div>
 
 <div class="about-row">
-	<h1>some events</h1>
+	<h1>some recent events</h1>
 	<table>
-		<tr>
-			<td class="table-date"><b>[09/2022]</b></td>
+        {% for item in site.data.events limit:3 %}
+        <tr>
+            <td class="table-date"><b>[{{ item.dates }}]</b></td>
 			<td>
-				Started my PhD at UC San Diego! 
+				{{ item.text }}
 			</td>
-		</tr>
-		<tr>
-			<td class="table-date"><b>[06/2021-07/2022]</b></td>
-			<td>
-				Quantitative Analyst at Morgan Stanley's FSL Group. 
-			</td>
-		</tr>
-		<tr>
-			<td class="table-date"><b>[06/2021]</b></td>
-			<td>
-				Graduated from Princeton! 🎓 My senior thesis titled "A Direct Sum Theorem for Deterministic Compression Under Uncertain Priors" designed an optimal scheme for deterministically compressing many messages simultaneously under the relaxed assumption that the two communicating parties may not know exactly the underlying distribution of messages.
-			</td>
-		</tr>
+        </tr>
+        {% endfor %}
 	</table>
 </div>

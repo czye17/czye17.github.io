@@ -46,3 +46,9 @@
   role: Head TA
   school: Princeton
   idx: 2021.1
+- course: CSE 202 - Algorithm Design and Analysis
+  year: 2024
+  term: winter
+  role: TA
+  school: UCSD
+  idx: 2024.1

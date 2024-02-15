@@ -4,17 +4,43 @@ title: research
 ---
 <h1>projects</h1>
 
-<p>working on cooking something up here... 🥘</p>
+all co-authors are listed in alphabetical order.
 
-<p>in the meantime, please feel free to check out the <a href="/cooking.html">food</a> I have been making 😊</p>
+<ul>
+    {% for item in site.data.research %}
+    <div class="pub">
+        <h2>{{ item.title }}</h2>
+        <p>with 
+            
+                {% for author in item.authors %}
+                    {% if author.last %}
+                        and
+                    {% endif %}
+                    <i><a href={{ author.site }}>{{ author.name }}</a></i>{% if author.comma %},{% endif %}         
+                {% endfor %}
+            
+        </p>
+        <p>{{ item.conference }} {{ item.year }}</p>
+        <p>
+            {% if item.arxiv %}
+                <a href={{ item.arxiv }}>[arxiv]</a> 
+            {% endif %}
+            {% if item.proceedings %}
+                <a href={{ item.proceedings }}>[{{ item.conference }}]</a>
+            {% endif %}
+        </p>
+    </div>
+    {% endfor %}
+</ul>
 
 <h1>talks</h1>
 
 {% assign sorted_talks = site.data.talks | sort: "date" | reverse %}
 <ul>
     {% for item in sorted_talks %}
-    <li><b>{{ item.topic }}</b> - {{ item.setting }} ({{ item.date | date_to_string }})</li>
+    <div class="pub">
+        <h2>{{ item.topic }}</h2>
+        <p>{{ item.setting }} ({{ item.date | date_to_string }})</p>
+    </div>
     {% endfor %}
 </ul>
-
-    

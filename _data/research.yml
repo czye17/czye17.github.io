@@ -1,0 +1,28 @@
+- title: Faster Approximate All Pairs Shortest Paths
+  conference: SODA
+  year: 2024
+  arxiv: https://arxiv.org/abs/2309.13225
+  proceedings: https://epubs.siam.org/doi/abs/10.1137/1.9781611977912.170
+  authors: 
+    - name: Barna Saha
+      site: https://barnasaha.net
+- title: On the Complexity of Algorithms with Prediction for Dynamic Graph Problems
+  conference: ITCS
+  year: 2024
+  arxiv: https://arxiv.org/abs/2307.16771
+  proceedings: https://drops.dagstuhl.de/entities/document/10.4230/LIPIcs.ITCS.2024.62
+  authors: 
+    - name: Monika Henzinger
+      site: https://ist.ac.at/de/forschung/henzinger_monika-gruppe/
+      comma: true
+    - name: Barna Saha
+      site: https://barnasaha.net
+      comma: true
+    - name: Martin Seybold
+      site: https://orcid.org/0000-0001-6901-3035
+      last: true
+- title: The I/O Complexity of Attention, or How Optimal is Flash Attention?
+  arxiv: https://arxiv.org/abs/2402.07443
+  authors: 
+    - name: Barna Saha
+      site: https://barnasaha.net
