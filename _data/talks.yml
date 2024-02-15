@@ -1,18 +1,22 @@
-- topic: Subcubic Algorithms for Structured APSP Instances
-  setting: UCSD CSE Theory Lunch
-  date: 2022.09.30
-- topic: Linear Time Negative Weight SSSP via Low Diameter Decomposition
-  setting: UCSD CSE Theory Lunch
-  date: 2023.02.03
-- topic: Polynomial Regression
-  setting: EnCore Institute FinDS 2023
-  date: 2023.08.10
-- topic: Faster Approximate All Pairs Shortest Paths
-  setting: EnCORE Student Social
-  date: 2023.09.25
-- topic: Faster Approximate All Pairs Shortest Paths
-  setting: UCSD CSE Theory Lunch
-  date: 2023.10.13
 - topic: The I/O Complexity of Attention
-  setting: UCSD CSE Theory Lunch
-  date: 2024.02.09
+  presentations:
+    - setting: UCSD CSE Theory Lunch
+      date: 2024.02.09
+- topic: Faster Approximate All Pairs Shortest Paths
+  presentations:
+    - setting: EnCORE Student Social
+      date: 2023.09.25
+    - setting: UCSD CSE Theory Lunch
+      date: 2023.10.13
+- topic: Polynomial Regression
+  presentations:
+    - setting: EnCore Institute FinDS 2023
+      date: 2023.08.10
+- topic: Linear Time Negative Weight SSSP via Low Diameter Decomposition
+  presentations:
+    - setting: UCSD CSE Theory Lunch
+      date: 2023.02.03
+- topic: Subcubic Algorithms for Structured APSP Instances
+  presentations:
+    - setting: UCSD CSE Theory Lunch
+      date: 2022.09.30

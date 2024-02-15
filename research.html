@@ -35,12 +35,13 @@ all co-authors are listed in alphabetical order.
 
 <h1>talks</h1>
 
-{% assign sorted_talks = site.data.talks | sort: "date" | reverse %}
 <ul>
-    {% for item in sorted_talks %}
+    {% for item in site.data.talks %}
     <div class="pub">
         <h2>{{ item.topic }}</h2>
-        <p>{{ item.setting }} ({{ item.date | date_to_string }})</p>
+        {% for presentation in item.presentations %}
+            <p>{{ presentation.setting }} ({{ presentation.date | date_to_string }})</p>
+        {% endfor %}
     </div>
     {% endfor %}
 </ul>
