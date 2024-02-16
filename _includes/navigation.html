@@ -2,16 +2,34 @@
     <div class="title-wide">
         <h1><a href="/">christopher ye</a></h1>
     </div>
+    <div class="title-thin">
+        <center><h1><a href="/">christopher ye</a></h1></center>
+    </div>
+
     <div class="nav-wide">
-        <nav class="nav-wide">
+        <nav>
             <ul>
                 {% for item in site.data.navigation %}
                 <li>
-                    <a href="{{ item.link }}" {% if page.url==item.link %} class="nav-current nav-wide" {% else %}
-                        class="nav-base nav-wide" {% endif %}>{{ item.name }}</a>
+                    <a href="{{ item.link }}" {% if page.url==item.link %} class="nav-current" {% else %}
+                        class="nav-base" {% endif %}>{{ item.name }}</a>
                 </li>
                 {% endfor %}
             </ul>
         </nav>
+    </div>
+    <div class="nav-thin">
+        <center>
+            <nav>
+            <ul>
+                {% for item in site.data.navigation %}
+                <li>
+                    <a href="{{ item.link }}" {% if page.url==item.link %} class="nav-current" {% else %}
+                        class="nav-base" {% endif %}>{{ item.name }}</a>
+                </li>
+                {% endfor %}
+            </ul>
+            </nav>
+        </center>
     </div>
 </header>

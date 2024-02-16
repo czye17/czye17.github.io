@@ -28,6 +28,9 @@ all co-authors are listed in alphabetical order.
             {% if item.proceedings %}
                 <a href={{ item.proceedings }}>[{{ item.conference }}]</a>
             {% endif %}
+            {% if item.journal %}
+                <a href={{ item.journal }}>[{{ item.journalname }}]</a>
+            {% endif %}
         </p>
     </div>
     {% endfor %}
@@ -37,7 +40,7 @@ all co-authors are listed in alphabetical order.
 
 <ul>
     {% for item in site.data.talks %}
-    <div class="pub">
+    <div class="talk">
         <h2>{{ item.topic }}</h2>
         {% for presentation in item.presentations %}
             <p>{{ presentation.setting }} ({{ presentation.date | date_to_string }})</p>

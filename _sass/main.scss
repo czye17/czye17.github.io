@@ -58,7 +58,7 @@ a:hover {
 
 footer a:hover {
     color: var(--link-hover);
-    background-color: #000000;
+    background-color: var(--link-hover);
     transition: .2s;
 }
 
@@ -68,7 +68,7 @@ footer img {
 
 footer img:hover {
     opacity: 1.0;
-    filter: hue-rotate(-30deg) saturate(15) brightness(85%);
+    // filter: hue-rotate(-30deg) saturate(15) brightness(85%);
     color: none;
     transition: .2s;
 }
@@ -427,6 +427,23 @@ figcaption {
 }
 
 .pub h2 {
+    margin-bottom: 6px;
+    font-family: Inter;
+    font-size: 16px;
+}
+
+.talk {
+    padding-top: 2px;
+    padding-bottom: 0px;
+}
+
+.talk p {
+    font-size: 12px;
+    margin: 2px;
+    margin-left: 1.6em;
+}
+
+.talk h2 {
     margin-bottom: 6px;
     font-family: Inter;
     font-size: 16px;

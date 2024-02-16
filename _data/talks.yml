@@ -1,4 +1,4 @@
-- topic: The I/O Complexity of Attention
+- topic: The I/O Complexity of Attention, or How Optimal is FlashAttention?
   presentations:
     - setting: UCSD CSE Theory Lunch
       date: 2024.02.09
@@ -8,6 +8,8 @@
       date: 2023.09.25
     - setting: UCSD CSE Theory Lunch
       date: 2023.10.13
+    - setting: UCSD CSE Theory Seminar
+      date: 2023.10.16
 - topic: Polynomial Regression
   presentations:
     - setting: EnCore Institute FinDS 2023
