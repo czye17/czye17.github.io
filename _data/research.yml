@@ -1,4 +1,23 @@
-- title: The I/O Complexity of Attention, or How Optimal is Flash Attention?
+- title: Replicability in High Dimensional Statistics
+  arxiv: https://arxiv.org/abs/2406.02628
+  authors:
+    - name: Max Hopkins
+      site: https://cseweb.ucsd.edu/~nmhopkin/
+      comma: true
+    - name: Russell Impagliazzo
+      site: https://cseweb.ucsd.edu/~russell/
+      comma: true
+    - name: Daniel Kane
+      site: https://cseweb.ucsd.edu/~dakane/
+      comma: true
+    - name: Sihan Liu
+      site: https://lteins.github.io
+      last: true
+- title: I/O Complexity of Attention, or How Optimal is Flash Attention?
+  conference: ICML
+  year: 2024
+  awards:
+    - Selected for Oral Presentation
   arxiv: https://arxiv.org/abs/2402.07443
   authors: 
     - name: Barna Saha
