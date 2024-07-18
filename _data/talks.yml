@@ -1,4 +1,4 @@
-- topic: The I/O Complexity of Attention, or How Optimal is FlashAttention?
+- topic: I/O Complexity of Attention, or How Optimal is FlashAttention?
   presentations:
     - setting: UCSD CSE Theory Lunch
       date: 2024.02.09

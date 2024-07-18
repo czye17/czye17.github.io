@@ -1,4 +1,18 @@
+- title: Fine-Grained Optimality of Partially Dynamic Shortest Paths and More
+  arxiv: https://arxiv.org/abs/2407.09651
+  authors:
+    - name: Barna Saha
+      site: https://barnasaha.net
+      comma: true
+    - name: Virginia Vassilevska Williams
+      site: https://people.csail.mit.edu/virgi/
+      comma: true
+    - name: Yinzhan Xu
+      site: https://www.mit.edu/~xyzhan/
+      last: true
 - title: Replicability in High Dimensional Statistics
+  conference: FOCS
+  year: 2024
   arxiv: https://arxiv.org/abs/2406.02628
   authors:
     - name: Max Hopkins
@@ -13,12 +27,13 @@
     - name: Sihan Liu
       site: https://lteins.github.io
       last: true
-- title: I/O Complexity of Attention, or How Optimal is Flash Attention?
+- title: I/O Complexity of Attention, or How Optimal is FlashAttention?
   conference: ICML
   year: 2024
   awards:
     - Selected for Oral Presentation
   arxiv: https://arxiv.org/abs/2402.07443
+  proceedings: https://icml.cc/virtual/2024/oral/35531
   authors: 
     - name: Barna Saha
       site: https://barnasaha.net
