@@ -1,3 +1,15 @@
+- title: The Computational Complexity of Factored Graphs
+  arxiv: https://www.arxiv.org/abs/2407.19102
+  authors:
+    - name: Shreya Gupta
+      comma: true
+    - name: Boyang Huang
+      comma: true
+    - name: Russell Impagliazzo
+      site: https://cseweb.ucsd.edu/~russell/
+      comma: true
+    - name: Stanley Woo
+      last: true
 - title: Fine-Grained Optimality of Partially Dynamic Shortest Paths and More
   arxiv: https://arxiv.org/abs/2407.09651
   authors:
@@ -50,7 +62,6 @@
       site: https://barnasaha.net
       comma: true
     - name: Martin Seybold
-      site: https://orcid.org/0000-0001-6901-3035
       last: true
 - title: Faster Approximate All Pairs Shortest Paths
   conference: SODA

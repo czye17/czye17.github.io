@@ -1,5 +1,5 @@
-# - dates: 07/2024
-#   text: Presented "I/O Complexity of Attention, or How Optimal is FlashAttention" at ICML 24
+- dates: 07/2024
+  text: Presented "I/O Complexity of Attention, or How Optimal is FlashAttention" at ICML 24
 - dates: 01/2024
   text: Presented "On the Complexity of Algorithms with Predictions for Dynamic Graph Problems" at ITCS 24
 - dates: 01/2024
