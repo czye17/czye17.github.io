@@ -1,4 +1,24 @@
+- title: Faster Weighted and Unweighted Tree Edit Distance and APSP Equivalence
+  arxiv: https://arxiv.org/abs/2411.06502
+  authors:
+    - name: Jakob Nogler
+      site: https://jakob-nogler.github.io
+      comma: true
+    - name: Adam Polak
+      site: https://adampolak.github.io
+      comma: true
+    - name: Barna Saha
+      site: https://barnasaha.net
+      comma: true
+    - name: Virginia Vassilevska Williams
+      site: https://people.csail.mit.edu/virgi/
+      comma: true
+    - name: Yinzhan Xu
+      site: https://www.mit.edu/~xyzhan/
+      last: true
 - title: The Computational Complexity of Factored Graphs
+  conference: ITCS
+  year: 2025
   arxiv: https://www.arxiv.org/abs/2407.19102
   authors:
     - name: Shreya Gupta
