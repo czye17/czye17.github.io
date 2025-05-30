@@ -1,30 +1,4 @@
-- title: "From Generative to Episodic: Sample-Efficient Replicable RL"
-  authors:
-    - name: Max Hopkins
-      site: https://cseweb.ucsd.edu/~nmhopkin/
-      comma: true
-    - name: Sihan Liu
-      site: https://lteins.github.io
-      comma: true
-    - name: Yuichi Yoshida
-      site: https://research.nii.ac.jp/~yyoshida/
-      last: true
-- title: "Subquadratic Algorithms and Hardness for Attention with Any Temperature"
-  arxiv: https://arxiv.org/abs/2505.14840
-  authors:
-    - name: Shreya Gupta
-      comma: true
-    - name: Boyang Huang
-      comma: true
-    - name: Barna Saha
-      site: https://barnasaha.net
-      comma: true
-    - name: Yinzhan Xu
-      site: https://www.mit.edu/~xyzhan/
-      last: true
 - title: Faster Weighted and Unweighted Tree Edit Distance and APSP Equivalence
-  conference: STOC
-  year: 2025
   arxiv: https://arxiv.org/abs/2411.06502
   authors:
     - name: Jakob Nogler
@@ -46,7 +20,6 @@
   conference: ITCS
   year: 2025
   arxiv: https://www.arxiv.org/abs/2407.19102
-  proceedings: https://drops.dagstuhl.de/entities/document/10.4230/LIPIcs.ITCS.2025.58
   authors:
     - name: Shreya Gupta
       comma: true
@@ -61,7 +34,6 @@
   conference: SODA
   year: 2025
   arxiv: https://arxiv.org/abs/2407.09651
-  proceedings: https://epubs.siam.org/doi/10.1137/1.9781611978322.175 
   authors:
     - name: Barna Saha
       site: https://barnasaha.net
@@ -76,7 +48,6 @@
   conference: NeurIPS
   year: 2024
   arxiv: https://arxiv.org/abs/2410.10892
-  proceedings: https://neurips.cc/virtual/2024/poster/93847 
   authors: 
     - name: Sihan Liu
       site: https://lteins.github.io
@@ -84,7 +55,6 @@
   conference: FOCS
   year: 2024
   arxiv: https://arxiv.org/abs/2406.02628
-  proceedings: https://www.computer.org/csdl/proceedings-article/focs/2024/167400b646/22gF3VT0SQ0 
   authors:
     - name: Max Hopkins
       site: https://cseweb.ucsd.edu/~nmhopkin/
