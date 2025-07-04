@@ -1,3 +1,17 @@
+- title: "Replicable Distribution Testing"
+  arxiv: https://arxiv.org/abs/2507.02814
+  authors: 
+    - name: Ilias Diakonikolas
+      site: http://www.iliasdiakonikolas.org
+      comma: true
+    - name: Jingyi Gao
+      comma: true
+    - name: Daniel Kane
+      site: https://cseweb.ucsd.edu/~dakane/
+      comma: true
+    - name: Sihan Liu
+      site: https://lteins.github.io
+      last: true
 - title: "From Generative to Episodic: Sample-Efficient Replicable RL"
   authors:
     - name: Max Hopkins
