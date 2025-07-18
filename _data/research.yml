@@ -13,6 +13,7 @@
       site: https://lteins.github.io
       last: true
 - title: "From Generative to Episodic: Sample-Efficient Replicable RL"
+  arxiv: https://arxiv.org/abs/2507.11926
   authors:
     - name: Max Hopkins
       site: https://cseweb.ucsd.edu/~nmhopkin/
