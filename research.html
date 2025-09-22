@@ -4,38 +4,87 @@ title: research
 ---
 <h1>publications</h1>
 
-all co-authors are listed in alphabetical order.
+<p>all co-authors are listed in alphabetical order.</p>
+
+{% assign years = site.data.research | map: 'year' | compact | uniq | sort | reverse %}
+
+<hr>
+
+<h3>Preprints</h3>
 
 <ul>
     {% for item in site.data.research %}
-    <div class="pub">
-        <h2>{{ item.title }}</h2>
-        <p>with 
-                {% for author in item.authors %}
-                    {% if author.last %}
-                        and
-                    {% endif %}
-                    <i><a href={{ author.site }}>{{ author.name }}</a></i>{% if author.comma %},{% endif %}         
+        {% if item.year == null %}
+            <div class="pub">
+                <h2>{{ item.title }}</h2>
+                <p>with 
+                        {% for author in item.authors %}
+                            {% if author.last %}
+                                and
+                            {% endif %}
+                            <i><a href={{ author.site }}>{{ author.name }}</a></i>{% if author.comma %},{% endif %}         
+                        {% endfor %}
+                </p>
+                <p>{{ item.conference }} {{ item.year }}</p>
+                {% for award in item.awards %}
+                    <p><b>{{ award }}</b></p>
                 {% endfor %}
-        </p>
-        <p>{{ item.conference }} {{ item.year }}</p>
-        {% for award in item.awards %}
-            <p><b>{{ award }}</b></p>
-        {% endfor %}
-        <p>
-            {% if item.arxiv %}
-                <a href={{ item.arxiv }}>[arXiv]</a> 
-            {% endif %}
-            {% if item.proceedings %}
-                <a href={{ item.proceedings }}>[{{ item.conference }}]</a>
-            {% endif %}
-            {% if item.journal %}
-                <a href={{ item.journal }}>[{{ item.journalname }}]</a>
-            {% endif %}
-        </p>
-    </div>
+                <p>
+                    {% if item.arxiv %}
+                        <a href={{ item.arxiv }}>[arXiv]</a> 
+                    {% endif %}
+                    {% if item.proceedings %}
+                        <a href={{ item.proceedings }}>[{{ item.conference }}]</a>
+                    {% endif %}
+                    {% if item.journal %}
+                        <a href={{ item.journal }}>[{{ item.journalname }}]</a>
+                    {% endif %}
+                </p>
+            </div>
+        {% endif %}
     {% endfor %}
 </ul>
+
+{% for year in years %}
+
+    <hr>
+
+    <h3>{{ year }}</h3>
+
+    <ul>
+        {% for item in site.data.research %}
+            {% if item.year == year %}
+                <div class="pub">
+                    <h2>{{ item.title }}</h2>
+                    <p>with 
+                            {% for author in item.authors %}
+                                {% if author.last %}
+                                    and
+                                {% endif %}
+                                <i><a href={{ author.site }}>{{ author.name }}</a></i>{% if author.comma %},{% endif %}         
+                            {% endfor %}
+                    </p>
+                    <p>{{ item.conference }} {{ item.year }}</p>
+                    {% for award in item.awards %}
+                        <p><b>{{ award }}</b></p>
+                    {% endfor %}
+                    <p>
+                        {% if item.arxiv %}
+                            <a href={{ item.arxiv }}>[arXiv]</a> 
+                        {% endif %}
+                        {% if item.proceedings %}
+                            <a href={{ item.proceedings }}>[{{ item.conference }}]</a>
+                        {% endif %}
+                        {% if item.journal %}
+                            <a href={{ item.journal }}>[{{ item.journalname }}]</a>
+                        {% endif %}
+                    </p>
+                </div>
+            {% endif %}
+        {% endfor %}
+    </ul>
+
+{% endfor %}
 
 <!--
 
