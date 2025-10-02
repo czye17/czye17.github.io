@@ -1,3 +1,8 @@
+- title: "Distribution Testing in the Presence of Arbitrarily Dominant Noise with Verification Queries"
+  arxiv: https://arxiv.org/abs/2509.17269
+  authors:
+    - name: Hadley Black
+      site: https://hablack.github.io
 - title: "Replicable Distribution Testing"
   conference: NeurIPS
   year: 2025
@@ -45,6 +50,7 @@
   conference: STOC
   year: 2025
   arxiv: https://arxiv.org/abs/2411.06502
+  proceedings: https://dl.acm.org/doi/10.1145/3717823.3718116
   authors:
     - name: Jakob Nogler
       site: https://jakob-nogler.github.io
