@@ -1,4 +1,6 @@
 - title: "Distribution Testing in the Presence of Arbitrarily Dominant Noise with Verification Queries"
+  conference: SODA
+  year: 2026
   arxiv: https://arxiv.org/abs/2509.17269
   authors:
     - name: Hadley Black
