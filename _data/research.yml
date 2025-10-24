@@ -1,3 +1,12 @@
+- title: "Approximate Replicability in Learning"
+  arxiv: https://arxiv.org/abs/2510.20200
+  authors:
+    - name: Max Hopkins
+      site: https://cseweb.ucsd.edu/~nmhopkin/
+      comma: true
+    - name: Russell Impagliazzo
+      site: https://cseweb.ucsd.edu/~russell/
+      last: true
 - title: "Distribution Testing in the Presence of Arbitrarily Dominant Noise with Verification Queries"
   conference: SODA
   year: 2026
