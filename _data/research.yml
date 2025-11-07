@@ -50,6 +50,7 @@
     - name: Shreya Gupta
       comma: true
     - name: Boyang Huang
+      site: https://boyang-huang.github.io
       comma: true
     - name: Barna Saha
       site: https://barnasaha.net
@@ -87,6 +88,7 @@
     - name: Shreya Gupta
       comma: true
     - name: Boyang Huang
+      site: https://boyang-huang.github.io
       comma: true
     - name: Russell Impagliazzo
       site: https://cseweb.ucsd.edu/~russell/
