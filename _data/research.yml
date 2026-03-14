@@ -1,3 +1,17 @@
+- title: "On the Computational Hardness of Transformers"
+  arxiv: https://arxiv.org/abs/2603.11332
+  conference: STOC
+  year: 2026
+  authors:
+    - name: Barna Saha
+      site: https://barnasaha.net
+      comma: true
+    - name: Yinzhan Xu
+      site: https://www.mit.edu/~xyzhan/
+      comma: true
+    - name: Hantao Yu
+      site: https://www.hantaoyu.org/home
+      last: true
 - title: "Approximate Replicability in Learning"
   arxiv: https://arxiv.org/abs/2510.20200
   authors:
@@ -45,6 +59,8 @@
       site: https://research.nii.ac.jp/~yyoshida/
       last: true
 - title: "Subquadratic Algorithms and Hardness for Attention with Any Temperature"
+  conference: ICLR
+  year: 2026
   arxiv: https://arxiv.org/abs/2505.14840
   authors:
     - name: Shreya Gupta
