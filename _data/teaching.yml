@@ -58,3 +58,9 @@
   role: Head TA
   school: UCSD
   idx: 2025.1
+- course: CSE 202 - Algorithm Design and Analysis
+  year: 2026
+  term: winter
+  role: TA
+  school: UCSD
+  idx: 2026.1
