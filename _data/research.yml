@@ -1,7 +1,24 @@
+- title: "Almost Optimal Multiple Source Shortest Paths and Reachability"
+  arxiv: https://arxiv.org/abs/2606.26554
+  authors:
+    - name: Barna Saha
+      site: https://barnasaha.net
+    - name: Yinzhan Xu
+      site: https://www.mit.edu/~xyzhan/
+      last: true
+- title: "Furthest Pair Requires Quadratic Time in Superconstant Dimension under SETH"
+  arxiv: https://arxiv.org/abs/2606.25887
+  authors:
+    - name: Barna Saha
+      site: https://barnasaha.net
+    - name: Yinzhan Xu
+      site: https://www.mit.edu/~xyzhan/
+      last: true
 - title: "On the Computational Hardness of Transformers"
-  arxiv: https://arxiv.org/abs/2603.11332
   conference: STOC
   year: 2026
+  arxiv: https://arxiv.org/abs/2603.11332
+  proceedings: https://dl.acm.org/doi/epdf/10.1145/3798129.3800819
   authors:
     - name: Barna Saha
       site: https://barnasaha.net
@@ -17,7 +34,6 @@
   authors:
     - name: Max Hopkins
       site: https://cseweb.ucsd.edu/~nmhopkin/
-      comma: true
     - name: Russell Impagliazzo
       site: https://cseweb.ucsd.edu/~russell/
       last: true
@@ -25,6 +41,7 @@
   conference: SODA
   year: 2026
   arxiv: https://arxiv.org/abs/2509.17269
+  proceedings: https://epubs.siam.org/doi/10.1137/1.9781611978971.161
   authors:
     - name: Hadley Black
       site: https://hablack.github.io
@@ -34,6 +51,7 @@
   awards:
     - Selected for Spotlight Presentation
   arxiv: https://arxiv.org/abs/2507.02814
+  proceedings: https://proceedings.neurips.cc/paper_files/paper/2025/hash/1a57899d423ff1861fa306e7e254f778-Abstract-Conference.html
   authors: 
     - name: Ilias Diakonikolas
       site: http://www.iliasdiakonikolas.org
@@ -47,7 +65,10 @@
       site: https://lteins.github.io
       last: true
 - title: "From Generative to Episodic: Sample-Efficient Replicable RL"
+  conference: ICML
+  year: 2026
   arxiv: https://arxiv.org/abs/2507.11926
+  proceedings: https://icml.cc/virtual/2026/poster/63040
   authors:
     - name: Max Hopkins
       site: https://cseweb.ucsd.edu/~nmhopkin/
@@ -62,6 +83,7 @@
   conference: ICLR
   year: 2026
   arxiv: https://arxiv.org/abs/2505.14840
+  proceedings: https://iclr.cc/virtual/2026/poster/10009672
   authors:
     - name: Shreya Gupta
       comma: true
