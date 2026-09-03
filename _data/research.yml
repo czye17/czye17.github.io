@@ -1,10 +1,12 @@
 - title: "Almost Optimal Multiple Source Shortest Paths and Reachability"
+  conference: FOCS
+  year: 2026
   arxiv: https://arxiv.org/abs/2606.26554
   authors:
     - name: Barna Saha
       site: https://barnasaha.net
     - name: Yinzhan Xu
-      site: https://www.mit.edu/~xyzhan/
+      site: https://xuyinzhan.github.io
       last: true
 - title: "Furthest Pair Requires Quadratic Time in Superconstant Dimension under SETH"
   arxiv: https://arxiv.org/abs/2606.25887
@@ -12,7 +14,7 @@
     - name: Barna Saha
       site: https://barnasaha.net
     - name: Yinzhan Xu
-      site: https://www.mit.edu/~xyzhan/
+      site: https://xuyinzhan.github.io
       last: true
 - title: "On the Computational Hardness of Transformers"
   conference: STOC
@@ -24,7 +26,7 @@
       site: https://barnasaha.net
       comma: true
     - name: Yinzhan Xu
-      site: https://www.mit.edu/~xyzhan/
+      site: https://xuyinzhan.github.io
       comma: true
     - name: Hantao Yu
       site: https://www.hantaoyu.org/home
@@ -94,7 +96,7 @@
       site: https://barnasaha.net
       comma: true
     - name: Yinzhan Xu
-      site: https://www.mit.edu/~xyzhan/
+      site: https://xuyinzhan.github.io
       last: true
 - title: Faster Weighted and Unweighted Tree Edit Distance and APSP Equivalence
   conference: STOC
@@ -115,7 +117,7 @@
       site: https://people.csail.mit.edu/virgi/
       comma: true
     - name: Yinzhan Xu
-      site: https://www.mit.edu/~xyzhan/
+      site: https://xuyinzhan.github.io
       last: true
 - title: The Computational Complexity of Factored Graphs
   conference: ITCS
@@ -146,7 +148,7 @@
       site: https://people.csail.mit.edu/virgi/
       comma: true
     - name: Yinzhan Xu
-      site: https://www.mit.edu/~xyzhan/
+      site: https://xuyinzhan.github.io
       last: true
 - title: Replicable Uniformity Testing
   conference: NeurIPS
