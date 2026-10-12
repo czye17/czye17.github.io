@@ -1,15 +1,15 @@
 :root {
     /* Palette sampled from the profile photo: redwood forest, foliage, sunlit haze. */
-    --bg: #fdfdfb;
+    --bg: #f8f9fb;
     --text: #1f211c;
     --accent: #2a7a3b;
     --nav: #22465a;
     --muted: #7a7c6a;
-    --rule: #e4e7df;
-    --accent-tint: #fbdde6;
+    --rule: #dde2e8;
+    --accent-tint: #d6e7f6;
     --accent-light: #3f9a4a;
-    --highlight: #fbdde6;
-    --hover: #cf3d72;
+    --highlight: #d6e7f6;
+    --hover: #2f6fb3;
     --font-display: 'JetBrains Mono', ui-monospace, monospace;
     --font-body: 'Geist', Helvetica, sans-serif;
     --sidebar-width: 200px;
