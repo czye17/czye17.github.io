@@ -1,210 +1,117 @@
+# Publications, newest first. Papers without a `year` are listed as preprints.
+# Author homepages live in coauthors.yml.
+#
+# - title: Paper title
+#   conference: STOC          # also the label for the proceedings link
+#   year: 2026
+#   awards: [Best Paper]
+#   arxiv: https://arxiv.org/abs/...
+#   proceedings: https://...
+#   authors: [Co-author One, Co-author Two]
+
 - title: "Almost Optimal Multiple Source Shortest Paths and Reachability"
   conference: FOCS
   year: 2026
   arxiv: https://arxiv.org/abs/2606.26554
-  authors:
-    - name: Barna Saha
-      site: https://barnasaha.net
-    - name: Yinzhan Xu
-      site: https://xuyinzhan.github.io
-      last: true
+  authors: [Barna Saha, Yinzhan Xu]
+
 - title: "Furthest Pair Requires Quadratic Time in Superconstant Dimension under SETH"
   arxiv: https://arxiv.org/abs/2606.25887
-  authors:
-    - name: Barna Saha
-      site: https://barnasaha.net
-    - name: Yinzhan Xu
-      site: https://xuyinzhan.github.io
-      last: true
+  authors: [Barna Saha, Yinzhan Xu]
+
 - title: "On the Computational Hardness of Transformers"
   conference: STOC
   year: 2026
   arxiv: https://arxiv.org/abs/2603.11332
   proceedings: https://dl.acm.org/doi/epdf/10.1145/3798129.3800819
-  authors:
-    - name: Barna Saha
-      site: https://barnasaha.net
-      comma: true
-    - name: Yinzhan Xu
-      site: https://xuyinzhan.github.io
-      comma: true
-    - name: Hantao Yu
-      site: https://www.hantaoyu.org/home
-      last: true
+  authors: [Barna Saha, Yinzhan Xu, Hantao Yu]
+
 - title: "Approximate Replicability in Learning"
   arxiv: https://arxiv.org/abs/2510.20200
-  authors:
-    - name: Max Hopkins
-      site: https://cseweb.ucsd.edu/~nmhopkin/
-    - name: Russell Impagliazzo
-      site: https://cseweb.ucsd.edu/~russell/
-      last: true
+  authors: [Max Hopkins, Russell Impagliazzo]
+
 - title: "Distribution Testing in the Presence of Arbitrarily Dominant Noise with Verification Queries"
   conference: SODA
   year: 2026
   arxiv: https://arxiv.org/abs/2509.17269
   proceedings: https://epubs.siam.org/doi/10.1137/1.9781611978971.161
-  authors:
-    - name: Hadley Black
-      site: https://hablack.github.io
+  authors: [Hadley Black]
+
 - title: "Replicable Distribution Testing"
   conference: NeurIPS
   year: 2025
-  awards:
-    - Selected for Spotlight Presentation
+  awards: [Selected for Spotlight Presentation]
   arxiv: https://arxiv.org/abs/2507.02814
   proceedings: https://proceedings.neurips.cc/paper_files/paper/2025/hash/1a57899d423ff1861fa306e7e254f778-Abstract-Conference.html
-  authors: 
-    - name: Ilias Diakonikolas
-      site: http://www.iliasdiakonikolas.org
-      comma: true
-    - name: Jingyi Gao
-      comma: true
-    - name: Daniel Kane
-      site: https://cseweb.ucsd.edu/~dakane/
-      comma: true
-    - name: Sihan Liu
-      site: https://lteins.github.io
-      last: true
+  authors: [Ilias Diakonikolas, Jingyi Gao, Daniel Kane, Sihan Liu]
+
 - title: "From Generative to Episodic: Sample-Efficient Replicable RL"
   conference: ICML
   year: 2026
   arxiv: https://arxiv.org/abs/2507.11926
   proceedings: https://icml.cc/virtual/2026/poster/63040
-  authors:
-    - name: Max Hopkins
-      site: https://cseweb.ucsd.edu/~nmhopkin/
-      comma: true
-    - name: Sihan Liu
-      site: https://lteins.github.io
-      comma: true
-    - name: Yuichi Yoshida
-      site: https://research.nii.ac.jp/~yyoshida/
-      last: true
+  authors: [Max Hopkins, Sihan Liu, Yuichi Yoshida]
+
 - title: "Subquadratic Algorithms and Hardness for Attention with Any Temperature"
   conference: ICLR
   year: 2026
   arxiv: https://arxiv.org/abs/2505.14840
   proceedings: https://iclr.cc/virtual/2026/poster/10009672
-  authors:
-    - name: Shreya Gupta
-      comma: true
-    - name: Boyang Huang
-      site: https://boyang-huang.github.io
-      comma: true
-    - name: Barna Saha
-      site: https://barnasaha.net
-      comma: true
-    - name: Yinzhan Xu
-      site: https://xuyinzhan.github.io
-      last: true
-- title: Faster Weighted and Unweighted Tree Edit Distance and APSP Equivalence
+  authors: [Shreya Gupta, Boyang Huang, Barna Saha, Yinzhan Xu]
+
+- title: "Faster Weighted and Unweighted Tree Edit Distance and APSP Equivalence"
   conference: STOC
   year: 2025
   arxiv: https://arxiv.org/abs/2411.06502
   proceedings: https://dl.acm.org/doi/10.1145/3717823.3718116
-  authors:
-    - name: Jakob Nogler
-      site: https://jakob-nogler.github.io
-      comma: true
-    - name: Adam Polak
-      site: https://adampolak.github.io
-      comma: true
-    - name: Barna Saha
-      site: https://barnasaha.net
-      comma: true
-    - name: Virginia Vassilevska Williams
-      site: https://people.csail.mit.edu/virgi/
-      comma: true
-    - name: Yinzhan Xu
-      site: https://xuyinzhan.github.io
-      last: true
-- title: The Computational Complexity of Factored Graphs
+  authors: [Jakob Nogler, Adam Polak, Barna Saha, Virginia Vassilevska Williams, Yinzhan Xu]
+
+- title: "The Computational Complexity of Factored Graphs"
   conference: ITCS
   year: 2025
   arxiv: https://www.arxiv.org/abs/2407.19102
   proceedings: https://drops.dagstuhl.de/entities/document/10.4230/LIPIcs.ITCS.2025.58
-  authors:
-    - name: Shreya Gupta
-      comma: true
-    - name: Boyang Huang
-      site: https://boyang-huang.github.io
-      comma: true
-    - name: Russell Impagliazzo
-      site: https://cseweb.ucsd.edu/~russell/
-      comma: true
-    - name: Stanley Woo
-      last: true
-- title: Fine-Grained Optimality of Partially Dynamic Shortest Paths and More
+  authors: [Shreya Gupta, Boyang Huang, Russell Impagliazzo, Stanley Woo]
+
+- title: "Fine-Grained Optimality of Partially Dynamic Shortest Paths and More"
   conference: SODA
   year: 2025
   arxiv: https://arxiv.org/abs/2407.09651
-  proceedings: https://epubs.siam.org/doi/10.1137/1.9781611978322.175 
-  authors:
-    - name: Barna Saha
-      site: https://barnasaha.net
-      comma: true
-    - name: Virginia Vassilevska Williams
-      site: https://people.csail.mit.edu/virgi/
-      comma: true
-    - name: Yinzhan Xu
-      site: https://xuyinzhan.github.io
-      last: true
-- title: Replicable Uniformity Testing
+  proceedings: https://epubs.siam.org/doi/10.1137/1.9781611978322.175
+  authors: [Barna Saha, Virginia Vassilevska Williams, Yinzhan Xu]
+
+- title: "Replicable Uniformity Testing"
   conference: NeurIPS
   year: 2024
   arxiv: https://arxiv.org/abs/2410.10892
-  proceedings: https://neurips.cc/virtual/2024/poster/93847 
-  authors: 
-    - name: Sihan Liu
-      site: https://lteins.github.io
-- title: Replicability in High Dimensional Statistics
+  proceedings: https://neurips.cc/virtual/2024/poster/93847
+  authors: [Sihan Liu]
+
+- title: "Replicability in High Dimensional Statistics"
   conference: FOCS
   year: 2024
   arxiv: https://arxiv.org/abs/2406.02628
-  proceedings: https://www.computer.org/csdl/proceedings-article/focs/2024/167400b646/22gF3VT0SQ0 
-  authors:
-    - name: Max Hopkins
-      site: https://cseweb.ucsd.edu/~nmhopkin/
-      comma: true
-    - name: Russell Impagliazzo
-      site: https://cseweb.ucsd.edu/~russell/
-      comma: true
-    - name: Daniel Kane
-      site: https://cseweb.ucsd.edu/~dakane/
-      comma: true
-    - name: Sihan Liu
-      site: https://lteins.github.io
-      last: true
-- title: I/O Complexity of Attention, or How Optimal is FlashAttention?
+  proceedings: https://www.computer.org/csdl/proceedings-article/focs/2024/167400b646/22gF3VT0SQ0
+  authors: [Max Hopkins, Russell Impagliazzo, Daniel Kane, Sihan Liu]
+
+- title: "I/O Complexity of Attention, or How Optimal is FlashAttention?"
   conference: ICML
   year: 2024
-  awards:
-    - Selected for Oral Presentation
+  awards: [Selected for Oral Presentation]
   arxiv: https://arxiv.org/abs/2402.07443
   proceedings: https://proceedings.mlr.press/v235/saha24a.html
-  authors: 
-    - name: Barna Saha
-      site: https://barnasaha.net
-- title: On the Complexity of Algorithms with Prediction for Dynamic Graph Problems
+  authors: [Barna Saha]
+
+- title: "On the Complexity of Algorithms with Prediction for Dynamic Graph Problems"
   conference: ITCS
   year: 2024
   arxiv: https://arxiv.org/abs/2307.16771
   proceedings: https://drops.dagstuhl.de/entities/document/10.4230/LIPIcs.ITCS.2024.62
-  authors: 
-    - name: Monika Henzinger
-      site: https://ist.ac.at/de/forschung/henzinger_monika-gruppe/
-      comma: true
-    - name: Barna Saha
-      site: https://barnasaha.net
-      comma: true
-    - name: Martin Seybold
-      last: true
-- title: Faster Approximate All Pairs Shortest Paths
+  authors: [Monika Henzinger, Barna Saha, Martin Seybold]
+
+- title: "Faster Approximate All Pairs Shortest Paths"
   conference: SODA
   year: 2024
   arxiv: https://arxiv.org/abs/2309.13225
   proceedings: https://epubs.siam.org/doi/abs/10.1137/1.9781611977912.170
-  authors: 
-    - name: Barna Saha
-      site: https://barnasaha.net
+  authors: [Barna Saha]

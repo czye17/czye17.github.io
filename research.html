@@ -1,120 +1,26 @@
 ---
-layout: default
 title: research
 ---
+
 <h1>publications</h1>
 
 <p>all co-authors are listed in alphabetical order.</p>
 
-{% assign years = site.data.research | map: 'year' | compact | uniq | sort | reverse %}
-
+{% assign preprints = site.data.research | where_exp: "pub", "pub.year == nil" %}
+{% if preprints.size > 0 %}
 <hr>
-
-<h3>Preprints</h3>
-
-<ul>
-    {% for item in site.data.research %}
-        {% if item.year == null %}
-            <div class="pub">
-                <h2>{{ item.title }}</h2>
-                <p>with 
-                        {% for author in item.authors %}
-                            {% if author.last %}
-                                and
-                            {% endif %}
-                            <i><a href={{ author.site }}>{{ author.name }}</a></i>{% if author.comma %},{% endif %}         
-                        {% endfor %}
-                </p>
-                <p>{{ item.conference }} {{ item.year }}</p>
-                {% for award in item.awards %}
-                    <p><b>{{ award }}</b></p>
-                {% endfor %}
-                <p>
-                    {% if item.arxiv %}
-                        <a href={{ item.arxiv }}>[arXiv]</a> 
-                    {% endif %}
-                    {% if item.proceedings %}
-                        <a href={{ item.proceedings }}>[{{ item.conference }}]</a>
-                    {% endif %}
-                    {% if item.journal %}
-                        <a href={{ item.journal }}>[{{ item.journalname }}]</a>
-                    {% endif %}
-                </p>
-            </div>
-        {% endif %}
-    {% endfor %}
+<h2>preprints</h2>
+<ul class="pubs">
+  {% for pub in preprints %}{% include publication.html pub=pub %}{% endfor %}
 </ul>
+{% endif %}
 
+{% assign years = site.data.research | map: "year" | compact | uniq | sort | reverse %}
 {% for year in years %}
-
-    <hr>
-
-    <h3>{{ year }}</h3>
-
-    <ul>
-        {% for item in site.data.research %}
-            {% if item.year == year %}
-                <div class="pub">
-                    <h2>{{ item.title }}</h2>
-                    <p>with 
-                            {% for author in item.authors %}
-                                {% if author.last %}
-                                    and
-                                {% endif %}
-                                <i><a href={{ author.site }}>{{ author.name }}</a></i>{% if author.comma %},{% endif %}         
-                            {% endfor %}
-                    </p>
-                    <p>{{ item.conference }} {{ item.year }}</p>
-                    {% for award in item.awards %}
-                        <p><b>{{ award }}</b></p>
-                    {% endfor %}
-                    <p>
-                        {% if item.arxiv %}
-                            <a href={{ item.arxiv }}>[arXiv]</a> 
-                        {% endif %}
-                        {% if item.proceedings %}
-                            <a href={{ item.proceedings }}>[{{ item.conference }}]</a>
-                        {% endif %}
-                        {% if item.journal %}
-                            <a href={{ item.journal }}>[{{ item.journalname }}]</a>
-                        {% endif %}
-                    </p>
-                </div>
-            {% endif %}
-        {% endfor %}
-    </ul>
-
+<hr>
+<h2>{{ year }}</h2>
+<ul class="pubs">
+  {% assign pubs = site.data.research | where: "year", year %}
+  {% for pub in pubs %}{% include publication.html pub=pub %}{% endfor %}
+</ul>
 {% endfor %}
-
-<!--
-
-<h1>talks</h1>
-
-<ul>
-    {% for item in site.data.talks %}
-    <div class="talk">
-        <h2>{{ item.topic }}</h2>
-        {% for presentation in item.presentations %}
-            <p>{{ presentation.setting }} ({{ presentation.date | date_to_string }})</p>
-        {% endfor %}
-    </div>
-    {% endfor %}
-</ul>
-
-<h1>service</h1>
-
-<ul>
-    <div class="talk">
-        <h2>on-campus volunteering</h2>
-        <p>UCSD CSE Visit Day 2023, 2024</p>
-        <p>EnCORE FinDS Institute Summer 2023</p>
-    </div>
-
-    <div class="talk">
-        <h2>reviewing</h2>
-        <p>2023 - ICALP, FOCS</p>
-        <p>2024 - SODA, FOCS, ESA</p>
-    </div>
-</ul>
-
--->

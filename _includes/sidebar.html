@@ -1,0 +1,25 @@
+<aside class="sidebar">
+  <div class="profile">
+    <img src="{{ '/imgs/profile.jpg' | relative_url }}" width="540" height="800" alt="Photo of {{ site.author }}">
+  </div>
+  <a href="{{ '/' | relative_url }}" class="site-title">{{ site.title }}</a>
+
+  <nav>
+    <ul>
+      {% for item in site.data.navigation %}
+      <li><a href="{{ item.link | relative_url }}"{% if page.url == item.link %} aria-current="page"{% endif %}>{{ item.name }}</a></li>
+      {% endfor %}
+    </ul>
+  </nav>
+
+  <section class="contact">
+    <p class="email">{{ site.email }}</p>
+    <ul>
+      {% for link in site.links %}
+      <li><a href="{{ link.url }}"><img src="{{ link.icon | relative_url }}" width="16" height="16" alt=""><span>{{ link.name }}</span></a></li>
+      {% endfor %}
+    </ul>
+  </section>
+
+  <p class="updated">✎ {{ site.last_updated }}</p>
+</aside>

@@ -1,24 +1,27 @@
-- dates: 06/2026
+# News, newest first; the three most recent appear on the home page.
+# Dates are shown as "Mon Year"; the day is ignored. Add `end` for a date range.
+- date: 2026-06-01
   text: Presented "On the Computational Hardness of Transformers" at STOC 2026
-- dates: 04/2026
+- date: 2026-04-01
   text: Presented "Subquadratic Algorithms and Hardness for Attention with Any Temperature" at ICLR 2026
-- dates: 01/2026
+- date: 2026-01-01
   text: Presented "Distribution Testing in the Presence of Arbitrary Noise with Verification Queries" at SODA 2026
-- dates: 12/2025
+- date: 2025-12-01
   text: Presented "Replicable Distribution Testing" at NeurIPS 2025
-- dates: 01/2025
+- date: 2025-01-01
   text: Presented "Fine-Grained Optimality of Partially Dynamic Shortest Paths and More" at SODA 25
-- dates: 12/2024
+- date: 2024-12-01
   text: Presented "Replicable Uniformity Testing" at NeurIPS 24
-- dates: 07/2024
+- date: 2024-07-01
   text: Presented "I/O Complexity of Attention, or How Optimal is FlashAttention" at ICML 24
-- dates: 01/2024
+- date: 2024-01-01
   text: Presented "On the Complexity of Algorithms with Predictions for Dynamic Graph Problems" at ITCS 24
-- dates: 01/2024
+- date: 2024-01-01
   text: First conference paper! Presented "Faster Approximate All Pairs Shortest Paths" at SODA 24
-- dates: 09/2022
-  text: Started my PhD at UC San Diego! 
-- dates: 06/2021-07/2022
-  text: Quantitative Analyst at Morgan Stanley's FSL Group. 
-- dates: 06/2021
+- date: 2022-09-01
+  text: Started my PhD at UC San Diego!
+- date: 2021-06-01
+  end: 2022-07-01
+  text: Quantitative Analyst at Morgan Stanley's FSL Group.
+- date: 2021-06-01
   text: Graduated from Princeton! 🎓 My senior thesis titled "A Direct Sum Theorem for Deterministic Compression Under Uncertain Priors" designed an optimal scheme for deterministically compressing many messages simultaneously under the relaxed assumption that the two communicating parties may not know exactly the underlying distribution of messages.
