@@ -109,6 +109,7 @@ main > section + section {
 
 .site-title {
     display: block;
+    width: fit-content; /* keep the hover highlight tight around the text */
     margin-top: 16px;
     font-family: var(--font-display);
     font-size: 21px;
