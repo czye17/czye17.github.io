@@ -2,12 +2,20 @@
 # Author homepages live in coauthors.yml.
 #
 # - title: Paper title
-#   conference: STOC          # also the label for the proceedings link
+#   conference: SODA          # also the label for the proceedings link
 #   year: 2026
-#   awards: [Best Paper]
+#   awards: [award]
 #   arxiv: https://arxiv.org/abs/...
 #   proceedings: https://...
 #   authors: [Co-author One, Co-author Two]
+
+- title: "Online Tokenization with Optimal Delay in Linear Time"
+  arxiv: https://arxiv.org/abs/2610.19139
+  authors: [Mina Dalirrooyfard]
+
+- title: "Simple, Faster (min, +) Matrix Multiplication and APSP"
+  arxiv: https://arxiv.org/abs/2610.20297
+  authors: [Barna Saha]
 
 - title: "Almost Optimal Multiple Source Shortest Paths and Reachability"
   conference: FOCS
@@ -16,6 +24,8 @@
   authors: [Barna Saha, Yinzhan Xu]
 
 - title: "Furthest Pair Requires Quadratic Time in Superconstant Dimension under SETH"
+  conference: SODA
+  year: 2027
   arxiv: https://arxiv.org/abs/2606.25887
   authors: [Barna Saha, Yinzhan Xu]
 
@@ -27,6 +37,8 @@
   authors: [Barna Saha, Yinzhan Xu, Hantao Yu]
 
 - title: "Approximate Replicability in Learning"
+  conference: SODA
+  year: 2027
   arxiv: https://arxiv.org/abs/2510.20200
   authors: [Max Hopkins, Russell Impagliazzo]
 
