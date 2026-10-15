@@ -1,66 +1,45 @@
-- course: MAT 203 - Advanced Vector Calculus
-  year: 2018
-  term: fall
-  role: Tutor
-  school: Princeton
-  idx: 2018.2
-- course: MAT 204 - Advanced Linear Algebra with Applications
-  year: 2019
-  term: spring
-  role: Tutor
-  school: Princeton
-  idx: 2019.1
-- course: COS 217 - Introduction to Programming Systems
-  year: 2019
-  term: spring
-  role: Grader
-  school: Princeton
-  idx: 2019.1
-- course: MAT 215 - Honors Analysis
-  year: 2019
-  term: fall
-  role: TA
-  school: Princeton
-  idx: 2019.2
-- course: MAT 215 - Honors Analysis
-  year: 2020
-  term: spring
-  role: TA
-  school: Princeton
-  idx: 2020.1
-- course: MAT 215 - Honors Analysis
-  year: 2020
-  term: fall
-  role: Head TA
-  school: Princeton
-  idx: 2020.1
-- course: COS 318 - Operating Systems
-  year: 2020
-  term: fall
-  role: TA
-  school: Princeton
-  idx: 2020.2
-- course: MAT 215 - Honors Analysis
-  year: 2021
-  term: spring
-  role: Head TA
-  school: Princeton
-  idx: 2021.1
+# Teaching positions, newest first.
 - course: CSE 202 - Algorithm Design and Analysis
-  year: 2024
-  term: winter
   role: TA
+  term: Winter 2026
   school: UCSD
-  idx: 2024.1
 - course: CSE 101 - Design and Analysis of Algorithms
-  year: 2025
-  term: winter
   role: Head TA
+  term: Winter 2025
   school: UCSD
-  idx: 2025.1
 - course: CSE 202 - Algorithm Design and Analysis
-  year: 2026
-  term: winter
   role: TA
+  term: Winter 2024
   school: UCSD
-  idx: 2026.1
+- course: MAT 215 - Honors Analysis
+  role: Head TA
+  term: Spring 2021
+  school: Princeton
+- course: MAT 215 - Honors Analysis
+  role: Head TA
+  term: Fall 2020
+  school: Princeton
+- course: COS 318 - Operating Systems
+  role: TA
+  term: Fall 2020
+  school: Princeton
+- course: MAT 215 - Honors Analysis
+  role: TA
+  term: Spring 2020
+  school: Princeton
+- course: MAT 215 - Honors Analysis
+  role: TA
+  term: Fall 2019
+  school: Princeton
+- course: COS 217 - Introduction to Programming Systems
+  role: Grader
+  term: Spring 2019
+  school: Princeton
+- course: MAT 204 - Advanced Linear Algebra with Applications
+  role: Tutor
+  term: Spring 2019
+  school: Princeton
+- course: MAT 203 - Advanced Vector Calculus
+  role: Tutor
+  term: Fall 2018
+  school: Princeton

@@ -1,25 +1,23 @@
 <!doctype html>
-<html>
+<html lang="{{ site.lang }}">
   <head>
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>{{ page.title }}</title>
-    <link rel="stylesheet" href="/assets/css/main.css">
-    {% feed_meta %}
-    {% seo %}
-    <!-- Google tag (gtag.js) -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=G-NPWZ39EDBF"></script>
-    <script>
-    window.dataLayer = window.dataLayer || [];
-    function gtag(){dataLayer.push(arguments);}
-    gtag('js', new Date());
-
-    gtag('config', 'G-NPWZ39EDBF');
-    </script>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>{{ site.title }}</title>
+    <link rel="icon" href="data:,"> <!-- intentionally no favicon -->
+    {% seo title=false %}
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Geist:wght@400..600&family=JetBrains+Mono:wght@400..700&display=swap">
+    <link rel="stylesheet" href="{{ '/assets/css/main.css' | relative_url }}">
+    {% include analytics.html %}
   </head>
   <body>
-    {% include navigation.html %}
-    {{ content }}
-    {% include footer.html %}
+    <div class="page">
+      {% include sidebar.html %}
+      <main>
+        {{ content }}
+      </main>
+    </div>
   </body>
 </html>

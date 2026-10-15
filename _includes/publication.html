@@ -1,0 +1,17 @@
+{% assign pub = include.pub %}
+<li class="pub">
+  <h3>{{ pub.title }}</h3>
+  <p>with
+    {% for name in pub.authors %}
+      {% if forloop.last and forloop.length > 1 %}and{% endif %}
+      {% assign site_url = site.data.coauthors[name] %}
+      <i>{% if site_url %}<a href="{{ site_url }}">{{ name }}</a>{% else %}{{ name }}{% endif %}</i>{% if forloop.length > 2 and forloop.last == false %},{% endif %}
+    {% endfor %}
+  </p>
+  {% if pub.year %}<p>{{ pub.conference }} {{ pub.year }}</p>{% endif %}
+  {% for award in pub.awards %}<p><b>{{ award }}</b></p>{% endfor %}
+  <p>
+    {% if pub.arxiv %}<a href="{{ pub.arxiv }}">[arXiv]</a>{% endif %}
+    {% if pub.proceedings %}<a href="{{ pub.proceedings }}">[{{ pub.conference }}]</a>{% endif %}
+  </p>
+</li>

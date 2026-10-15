@@ -1,24 +1,14 @@
 ---
-layout: default
 title: teaching
 ---
 
-<h1>teaching experience</h1>
+<h1>teaching</h1>
 
-{% assign sorted_teaching = site.data.teaching | sort: "idx" | reverse %}
-<table class="teaching-table">
-    {% for item in sorted_teaching %}
-    <tr>
-        <td>
-            <b>{{ item.course }}</b>
-        </td>
-        <td>
-            {{ item.role}}
-        </td>
-        <td>
-            ({{ item.term | capitalize }} {{ item.year }}, {{ item.school }})
-        </td>
-    </tr>
-    {% endfor %}
-</table>
-    
+<ul class="teaching">
+  {% for item in site.data.teaching %}
+  <li>
+    <div class="when">{{ item.term }}<br>{{ item.school }}</div>
+    <div><b>{{ item.course }}</b><br>{{ item.role }}</div>
+  </li>
+  {% endfor %}
+</ul>

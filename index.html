@@ -1,67 +1,34 @@
 ---
-layout: default
 title: christopher ye
 ---
 
-<div class="post-padding"></div>
+<section>
+  <h1>about</h1>
+  <p>
+    Hi 🌊! I'm a fifth-year PhD student in UC San Diego's CS Theory Group where I am very lucky to work with
+    <a href="https://barnasaha.net">Barna Saha</a> and <a href="https://cseweb.ucsd.edu/~russell/">Russell Impagliazzo</a>.
+    I am interested in algorithm design, fine-grained complexity, as well as computational complexity and learning theory.
+    Before that, I received my undergraduate degree in mathematics from Princeton in 2021, where I was fortunate to work with
+    <a href="https://www.cs.princeton.edu/people/profile/gkol">Gillat Kol</a>.
+  </p>
+  <p>
+    In summer 2026, I had the pleasure of working with
+    <a href="https://people.csail.mit.edu/minadrf/">Mina Dalirrooyfard</a> at the Morgan Stanley ML Research Group.
+    Before my PhD, I was a Quantitative Analyst in Morgan Stanley's Securitized Products Group.
+  </p>
+  <p>When not at the office, I enjoy swimming, baking, and exploring the outdoors.
+    <br>
+  Thank you to <a href="https://sxzhang25.github.io">Sharon</a> for giving me the template to her personal website.</p>
+</section>
 
-<div class="about-wide">
-    <div class="about-cols">
-        <div class="about-img">
-            <img src="imgs/profile.jpg" width="100%" alt="profile pic" title="profile">
-        </div>
-        <div class="about-desc">
-            <h1>about me</h1>
-            <p>
-                Hi 🌊! I'm a fifth-year PhD student in UC San Diego's CS Theory Group where I am very lucky to work with <a 
-                href="https://barnasaha.net">Barna Saha</a> and <a href="https://cseweb.ucsd.edu/~russell/">Russell
-                Impagliazzo</a>. I am interested in algorithm design, fine-grained complexity, as well as
-                computational complexity and learning theory. 
-                Before that, I received my undegraduate degree in mathematics from Princeton in 2021, where I was fortunate to
-                work with <a href="https://www.cs.princeton.edu/people/profile/gkol">Gillat Kol</a>. 
-            </p>
-        </div>
-    </div>
-</div>
-<div class="about-thin">
-	<div class="about-row">
-		<center><img src="imgs/profile.jpg" width="50%" alt="profile pic" title="profile"></center>
-		<h1>about me</h1>
-		<p>
-            Hi 🌊! I'm a fifth-year PhD student in UC San Diego's CS Theory Group where I am very lucky to work with <a
-            href="https://barnasaha.net">Barna Saha</a> and <a href="https://cseweb.ucsd.edu/~russell/">Russell
-            Impagliazzo</a>. I am interested in algorithm design, fine-grained complexity, as well as
-            computational complexity and learning theory. 
-            Before that, I received my undegraduate degree in mathematics from Princeton in 2021, where I was fortunate to
-            work with <a href="https://www.cs.princeton.edu/people/profile/gkol">Gillat Kol</a>. 
-        </p>
-	</div>
-</div>
-
-<div class="about-row">
-    <p>
-        During the summer of 2026, I had the pleasure of working with <a 
-        href="https://people.csail.mit.edu/minadrf/">Mina Dalirrooyfard</a> at the Morgan Stanley ML Research Group.
-        From 2021 to 2022, I worked as a Quantitative Analyst in the Securitized Products Group at Morgan Stanley.
-        I also completed an internship with the AI Infrastructure Group at <a href="https://www.aidoc.com">aidoc</a> during the summer of 2019.
-    </p>
-    <p>
-        When not at the office, I enjoy swimming, baking, and exploring the outdoors.
-    </p>
-    <p>You can reach me at czye (at) ucsd (dot) edu</p>
-    <p>Thank you to <a href="https://sxzhang25.github.io">Sharon</a> for giving me the template to her personal website.</p>
-</div>
-
-<div class="about-row">
-	<h1>some recent events</h1>
-	<table>
-        {% for item in site.data.events limit:3 %}
-        <tr>
-            <td class="table-date"><b>[{{ item.dates }}]</b></td>
-			<td>
-				{{ item.text }}
-			</td>
-        </tr>
-        {% endfor %}
-	</table>
-</div>
+<section>
+  <h1>news</h1>
+  <table class="events">
+    {% for item in site.data.events limit: 3 %}
+    <tr>
+      <th scope="row">{{ item.date | date: "%b %Y" }}{% if item.end %} – {{ item.end | date: "%b %Y" }}{% endif %}</th>
+      <td>{{ item.text }}</td>
+    </tr>
+    {% endfor %}
+  </table>
+</section>
